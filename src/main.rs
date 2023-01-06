@@ -1,6 +1,5 @@
 use std::fs::read_to_string;
 
-
 fn main() -> Result<(), String> {
   let args: Vec<String> = std::env::args().collect();
   if let None = args.get(1) {
